@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0px; padding:0px; font-weight:normal; list-style:none;}
+html {font-family:微软雅黑; font-size:14px;}
+a {cursor:pointer;}
+.ico { background:url(../images/ico.png);}
+.editIco {background:url(../images/editIco.png);}

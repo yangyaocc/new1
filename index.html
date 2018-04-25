@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<script src="js/jquery1.7.2.min.js"></script>
+<script src="js/Slider.js"></script>
+<link href="css/public.css" rel="stylesheet" />
+<link href="css/index.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="topLine">
+    	<div class="content">
+        	<strong>校友网装修</strong>
+			<div class="tlBut">
+                <a><i class="editIco selectedStyle"></i>已选风格</a>
+                <a><i class="editIco configure"></i>全局配置</a>
+            </div>
+			<div class="trBut">
+                <a><i class="editIco backupPlan"></i>备份方案</a>
+                <a class="previewClick"><i class="editIco preview"></i>预览</a>
+                <a class="preservationClick"><i class="editIco preservation"></i>保存效果</a>
+            </div>
+        </div>
+    </div>
+    <div class="registerLog">
+    	<i class="line"></i>
+		<div class="content">
+            <div class="logo"></div>
+            <div class="samNav">
+                <span>
+                	<a>基金会</a>
+                    <a>手机校友网</a>
+                    <a>母校首页</a>
+                    <i class="ico leftTop_ico"></i>
+                    <i class="ico rightTop_ico"></i>
+                </span>
+            </div>
+            <!--编辑遮罩层-->
+            <div class="mask">
+            	<div class="editButton"><a><i class="editIco edit"></i>编辑</a><a><i class="editIco replaceHead"></i>更换页头</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+		<div class="content">
+            <ul>
+                <li><a class="hoverStyle">首页</a></li>
+                <li><a>校友圈子</a></li>
+                <li><a>校友组织</a></li>
+                <li><a>校友活动</a></li>
+                <li><a>校友服务</a></li>
+                <li><a>校友风采</a></li>
+                <li><a>校史长廊</a></li>
+                <li><a>捐赠服务</a></li>
+                <li><a>校友博客</a></li>
+                <li><a>校内期刊</a></li>
+            </ul>
+            <!--编辑遮罩层-->
+            <div class="mask">
+                <div class="editButton"><a><i class="editIco edit"></i>编辑</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="r_bd">
+        <div class="slide">
+            <ul class="slide_img">
+                <li style="background-image:url(images/1.jpg);"><a target="_blank" href=""></a></li>
+                <li style="background-image:url(images/2.jpg);"><a target="_blank" href=""></a></li>
+            </ul>
+            <ul class="slide_btn"></ul>
+            <script>
+                for(var i=0; i<$(".slide_img").children().length; i++)
+                {
+                    $(".slide_btn").append("<li class=''></li>")
+                }	
+            </script>
+        </div>
+        <div class="imageMatte">
+            <!--编辑遮罩层-->
+            <div class="mask">
+                <div class="editButton"><a><i class="editIco edit"></i>编辑</a></div>
+                <div class="editButton addMk"><a><i class="editIco"></i>添加模块</a></div>
+            </div>
+        </div>
+    </div>
+    <!--可拖拽区域-->
+    <div class="content drag">
+    	<div class="dragLeft width220">
+        	<dl>
+            	<dd>
+                	<strong><p>校园风光</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+                    
+                    </div>
+                </dd>
+            	<dd>
+                	<strong><p>校园影像</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+                    
+                    </div>
+                </dd>
+            	<dd>
+                	<strong><p>帮帮忙</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+                    
+                    </div>
+                </dd>
+            	<dd>
+                	<strong><p>投票调查</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+                    
+                    </div>
+                </dd>
+            </dl>
+        </div>
+    	<div class="dragMiddle width540">
+        	<dl>
+            	<dd>
+                	<strong><p>新闻动态</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+						<div class="link">
+                            <a>关于召开“第十一届全国生物医药色谱及相关技术学术交流会”的通知</a>
+                            <a>核新讲坛：中华强国梦之载人航天精神在新时代的传承与应用中华强国梦之载人航天精神在新时代的传承与应用</a>
+                            <a>关于召开“铀资源利用与环境”学术研讨会的通知</a>
+                            <a>东华理工大学2016年公开招聘教师、辅导员现场考察的通知（第一批）</a>
+                            <a>东华理工大学长江学院2016年公开招聘教师现场考核的通知</a>
+                        </div>
+                    </div>
+                    <!--编辑遮罩层-->
+                    <div class="mask">
+                        <div class="editButton"><a><i class="editIco edit"></i>编辑</a></div>
+                        <div class="editButton addMk"><a><i class="editIco"></i>添加模块</a></div>
+                    </div>
+                </dd>
+            	<dd>
+                	<strong><p>投票调查</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+                    
+                    </div>
+                </dd>
+            	<dd>
+                	<strong><p>投票调查</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+                    
+                    </div>
+                </dd>
+            	<dd>
+                	
+                </dd>
+            </dl>
+        </div>
+    	<div class="dragRight width220">
+        	<dl>
+            	<dd>
+                	<strong><p>秩年返校</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+						<div class="link">
+                            <a>91级机械一系毕业20年同学91级机械一系毕业20年同学91级机械一系毕业20年同学</a>
+                            <a>60级高温合金专业同学聚首</a>
+                            <a>关于召开“铀资源利用与环境”学术研讨会的通知</a>
+                            <a>东华理工大学2016年公开招聘教师、辅导员现场考察的通知（第一批）</a>
+                            <a>东华理工大学长江学院2016年公开招聘教师现场考核的通知</a>
+                        </div>
+                    </div>
+                    <!--编辑遮罩层-->
+                    <div class="mask">
+                        <div class="editButton"><a><i class="editIco edit"></i>编辑</a></div>
+                        <div class="editButton addMk"><a><i class="editIco"></i>添加模块</a></div>
+                    </div>
+                </dd>
+            	<dd>
+                	<strong><p>校友企业</p><a>更多<i class="ico jt"></i></a></strong>
+                    <div class="moduleCon">
+						<div class="link">
+                            <a>南京网亚计算机有限公司</a>
+                            <a>天津市隆电电气工程有限公司</a>
+                            <a>江苏省交通规划设计院</a>
+                            <a>光一科技有限公司</a>
+                            <a>浙江华坤地质发展有限公司</a>
+                        </div>
+                    </div>
+                    <!--编辑遮罩层-->
+                    <div class="mask">
+                        <div class="editButton"><a><i class="editIco edit"></i>编辑</a></div>
+                        <div class="editButton addMk"><a><i class="editIco"></i>添加模块</a></div>
+                    </div>
+                </dd>
+            	<dd>
+                	
+                </dd>
+            	<dd>
+                	
+                </dd>
+            </dl>
+        </div>
+    </div>
+</body>
+
+<script>
+(function() {
+    // 巨无霸轮播
+    var slider = new Slider('.slide', {
+        scroller: '.slide_img',
+        nav: '.slide_btn',
+        triggerEvent: 'click',
+
+        curCls: 'on',
+        index: 0,
+        speed: 500,
+        delay: 4000,
+        preload: true, //配合lazyload使用，预加载下一帧
+        lazyload: 'data-lazy',
+        loadingCls: 'slider_loading',
+        autoPlay: true,
+        effect: 'fade' // scrollX,scrollY,fade
+    });
+})();
+
+</script>
+</html>

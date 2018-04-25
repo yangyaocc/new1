@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topLine {background-color:#333333;}
+.content {width:1000px; height:100%; margin:auto; position:relative;}
+.topLine .content {color:#FFF; padding:18px 0; height:30px;}
+.topLine .content strong {font-size:24px; float:left;}
+.topLine .content strong,.topLine .content .tlBut a,.topLine .content .trBut a {margin-right:10px;}
+.topLine .content .tlBut a,.topLine .content .trBut a {height:28px; line-height:28px; display:block; float:left; border:1px solid #111111; border-radius:3px; background-color:#555555; padding:0 15px; font-size:16px;}
+.topLine .content .trBut { float:right;}
+.topLine .content .tlBut a i,.topLine .content .trBut a i {width:19px; height:16px; float:left; margin:5px 6px 0 0;}
+.topLine .content .tlBut .selectedStyle {background-position:-2px 0px;}
+.topLine .content .tlBut .configure {background-position:-20px 0px;}
+.topLine .content .trBut a .backupPlan {background-position:-38px 0px;}
+.topLine .content .trBut a .preview {background-position:-55px 0px;}
+.topLine .content .trBut a .preservation {background-position:-74px 0px;}
+.topLine .content .trBut .previewClick {background-color:#02b466;}
+.topLine .content .trBut .preservationClick {background-color:#ff6600;}
+.topLine .content .tlBut,.topLine .content .trBut { display:inline-block;}
+
+.registerLog {height:120px; background-color:#cf000e; position:relative;}
+.registerLog .line { height:4px; background-color:#e40000; position:absolute; top:0; left:0; display:inline-block; width:100%;}
+.nav {height:50px; background-color:#780000; position:relative; border-bottom:1px solid #780000}
+.nav ul li {float:left;}
+.nav ul li a {display:block; height:100%; font-size:15px; color:#FFF; padding:0 21px; line-height:3em;}
+.nav ul,.nav ul li {height:100%;}
+.nav ul li .hoverStyle {background-color:#a00000;}
+.samNav {float:right; margin-right:14px;}
+.samNav span {display:inline-block; background-color:#e40000; border-radius:0px 0px 10px 10px; position:relative;}
+.samNav span a {color:#FFF; padding:5px 10px; display:block; float:left;}
+.samNav span i {width:17px; height:15px; position:absolute;}
+.samNav span .leftTop_ico {background-position:0px 1px; left:-17px; top:3px;}
+.samNav span .rightTop_ico {background-position:-19px 1px; right:-17px; top:3px;}
+.registerLog .content,.nav .content,.r_bd .content {border:1px dashed #7ecef4;}
+.mask {width:100%; height:100%; background-color:rgba(126,206,244,0.5); position:absolute; top:0; left:0; border:1px dashed #7ecef4;}
+.mask .editButton {float:right;}
+.mask .editButton a {background-color:#333333; color:#FFF; padding:0 10px; line-height:30px; display:block; float:left;}
+.mask .editButton a i {width:22px; height:20px; float:left; margin:6px 6px 0 0;}
+.registerLog .mask .editButton a:first-child {margin-right:10px;}
+.mask .editButton a .edit {background-position:-94px 1px;}
+.mask .editButton a .replaceHead {background-position:-112px 0px; height:17px;}
+/*===== 轮播 =====*/
+.r_bd { position:relative;}
+.slide{zoom:1; position:relative; height:380px;}
+.slide_img{overflow:hidden;width:100%;height:350px;}
+.slide_img li{ width:100%;height:380px; background-repeat:no-repeat; background-position:50% 0; background-size:100%;}
+.slide_img a{display:block;margin:auto; width:990px; height:100%;}
+.slide_img img{display:block;}
+.slide_btn{position:absolute; left:50%; bottom:10px; margin-left:30%; padding:10px 15px; background:url(../images/hei.png); border-radius:20px;}
+.slide_btn li{overflow:hidden; float:left; margin:0 5px; width:10px; height:10px; background-color:#CCC; vertical-align:middle; border-radius:50%;}
+.slide_btn li.on{background-color:#F00;}
+.slide_img li {position:absolute; top:0px; left:0px;}
+.add {background-color:#ffcc00 !important;}
+.imageMatte { position:absolute; top:0; left:50%; width:1000px; height:100%; margin-left:-500px;}
+.r_bd .content { position:absolute;}
+.mask .addMk a i { background-position:-134px 0px; width:15px;}
+.mask .addMk { position:absolute; bottom:0; right:0;}
+
+
+/*拖拽220*220*/
+.width220 dl dd { width:220px; height:220px; margin-top:20px; position:relative;}
+.dragLeft,.dragMiddle,.dragRight { float:left;}
+.dragMiddle,.dragRight { margin-left:10px;}
+dl dd strong { display:inline-block; width:100%; background-color:#f8f8f8; float:left; border-right:2px solid #f8f8f8;}
+dl dd strong p {float:left; border-left:1px solid #ccc; border-right:1px solid #ccc; border-top:2px solid #ff6600; height:38px; line-height:38px; padding:0 10px; font-size:16px; background-color:#FFF; position:relative; bottom:-1px;}
+dl dd strong a {float:right; font-size:13px; color:#333333; margin:10px 0;}
+.jt { float:right; width:6px; height:11px; background-position:-38px 0; margin:6px 8px 0 5px;}
+.moduleCon { border:1px solid #ccc; height:178px; float:left; width:100%;}
+/*拖拽540*220*/
+.width540 dl dd { width:540px; height:220px; margin-top:20px; position:relative;}
+.moduleCon .link { padding:14px 0;}
+.moduleCon .link a { display:block; line-height:30px; padding:0 18px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.moduleCon .link a:hover { color:#ff0000; text-decoration:underline; background:url(../images/hove.png) no-repeat 7px center;}
+
+.drag dl dd .mask { cursor:move;}
